@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 from notebook.descripcion.descripcionUsuario import consumir_api_usuarios
@@ -9,3 +10,5 @@ from notebook.transformacion.transformarUsuario import suma_edades_jovenes_por_n
 from notebook.transformacion.transformarUsuario import usuarios_por_edad_en_rango
 from notebook.transformacion.transformarUsuario import resumen_por_nombre
 from notebook.transformacion.transformarUsuario import usuarios_adultos_por_nombre
+
+
